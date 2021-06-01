@@ -1,7 +1,7 @@
 input.onButtonPressed(Button.A, function () {
     basic.pause(100)
     RollAngle = input.rotation(Rotation.Roll)
-    ServoAngle = Math.map(RollAngle, -60, 60, 30, 150)
+    ServoAngle = Math.map(RollAngle, -60, 60, 55, 125)
     basic.showIcon(IconNames.Meh)
     basic.pause(500)
     led.stopAnimation()
